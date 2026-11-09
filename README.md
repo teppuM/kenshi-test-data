@@ -16,7 +16,7 @@ No other mods were active.
 
 ## Folders
 
-- [skeleton-bed-power](skeleton-bed-power): which towns' Skeleton Repair Beds work with no power.
+- [skeleton-bed-power](skeleton-bed-power): a town's Skeleton Repair Bed works only when the town has a generator.
 - [skeleton-bed-healing](skeleton-bed-healing): how fast a Skeleton Repair Bed heals, and in what order.
 - [medic-job-robotics](medic-job-robotics): a skeleton with the Medic job but not Robotics does not repair itself.
 
