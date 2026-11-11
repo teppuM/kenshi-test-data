@@ -20,5 +20,6 @@ No other mods were active.
 - [skeleton-bed-healing](skeleton-bed-healing): how fast a Skeleton Repair Bed heals, and in what order.
 - [medic-job-robotics](medic-job-robotics): a skeleton with the Medic job but not Robotics does not repair itself.
 - [slavers-enslave-own](slavers-enslave-own): a slaver put in his own faction's slave shop cage is made a slave by them.
+- [stolen-goods-owner](stolen-goods-owner): goods stolen from a town building name its owner, a person, and keep that owner when dropped.
 
 The test mods copy a few records from the game's own data, as any mod does. Kenshi and its data belong to Lo-Fi Games.
