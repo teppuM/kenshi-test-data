@@ -22,5 +22,6 @@ No other mods were active.
 - [slavers-enslave-own](slavers-enslave-own): a slaver put in his own faction's slave shop cage is made a slave by them.
 - [stolen-goods-owner](stolen-goods-owner): goods stolen from a town building name its owner, a person, and keep that owner when dropped.
 - [trader-race-word](trader-race-word): a trader's race word can come from a nearby squad member's race, but never hands the conversation to that member.
+- [carried-member-trades](carried-member-trades): a carried, unconscious squad member trades through their own inventory window.
 
 The test mods copy a few records from the game's own data, as any mod does. Kenshi and its data belong to Lo-Fi Games.
