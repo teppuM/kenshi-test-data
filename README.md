@@ -24,5 +24,6 @@ No other mods were active, unless a folder gives its own load order.
 - [trader-race-word](trader-race-word): a trader's race word can come from a nearby squad member's race, but never hands the conversation to that member.
 - [carried-member-trades](carried-member-trades): a carried, unconscious squad member trades through their own inventory window.
 - [animal-bag-on-load](animal-bag-on-load): an animal wearing a bag its kind can't wear loses it into its own inventory when the save loads.
+- [animal-held-return](animal-held-return): an item sent back to an animal's bag, its old cell taken, goes into the bag, not the animal's hidden inventory.
 
 The test mods copy a few records from the game's own data, as any mod does. Kenshi and its data belong to Lo-Fi Games.
