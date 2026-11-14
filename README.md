@@ -6,7 +6,7 @@ Saves and small test mods from checks run in the original Kenshi while fixing bu
 |---|---|---|
 | 1.0.68 (Newland) | Windows, Steam | `gamedata.base`, `Newwworld.mod`, `Dialogue.mod`, `rebirth.mod`, then the folder's test mod if one is listed |
 
-No other mods were active.
+No other mods were active, unless a folder gives its own load order.
 
 ## Using the files
 
@@ -23,5 +23,6 @@ No other mods were active.
 - [stolen-goods-owner](stolen-goods-owner): goods stolen from a town building name its owner, a person, and keep that owner when dropped.
 - [trader-race-word](trader-race-word): a trader's race word can come from a nearby squad member's race, but never hands the conversation to that member.
 - [carried-member-trades](carried-member-trades): a carried, unconscious squad member trades through their own inventory window.
+- [animal-bag-on-load](animal-bag-on-load): an animal wearing a bag its kind can't wear loses it into its own inventory when the save loads.
 
 The test mods copy a few records from the game's own data, as any mod does. Kenshi and its data belong to Lo-Fi Games.
