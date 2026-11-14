@@ -25,5 +25,6 @@ No other mods were active, unless a folder gives its own load order.
 - [carried-member-trades](carried-member-trades): a carried, unconscious squad member trades through their own inventory window.
 - [animal-bag-on-load](animal-bag-on-load): an animal wearing a bag its kind can't wear loses it into its own inventory when the save loads.
 - [animal-held-return](animal-held-return): an item sent back to an animal's bag, its old cell taken, goes into the bag, not the animal's hidden inventory.
+- [gate-guard-bag-check](gate-guard-bag-check): with Universal Wasteland Expansion, a Shek gate guard says nothing more once his bag search ends.
 
 The test mods copy a few records from the game's own data, as any mod does. Kenshi and its data belong to Lo-Fi Games.
