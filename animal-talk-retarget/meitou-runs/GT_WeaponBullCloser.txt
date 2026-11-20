@@ -1,0 +1,6 @@
+squad member 0.0 Max at 22 from the NPC
+squad member 1.0 Hash Bull (animal) at 15 from the NPC
+Max (0.0) talks to Holy Weapon Trader
+tick 305 speaker=Holy Weapon Trader (168.0) player side=Hash Bull (1.0): TEST: the hashish search passed
+  choices: 0 TEST reply: who answers?
+tick 306: conversation closed

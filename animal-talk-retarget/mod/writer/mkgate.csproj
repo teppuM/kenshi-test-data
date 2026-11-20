@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Point the two HintPaths at Meitou.Core.dll and Meitou.Data.dll from a MeitouClient build (src/Meitou.Game/bin/Release/net11.0). -->
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net11.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings><TreatWarningsAsErrors>false</TreatWarningsAsErrors></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Meitou.Core"><HintPath>../../../MeitouClient/src/Meitou.Game/bin/Release/net11.0/Meitou.Core.dll</HintPath></Reference>
+    <Reference Include="Meitou.Data"><HintPath>../../../MeitouClient/src/Meitou.Game/bin/Release/net11.0/Meitou.Data.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

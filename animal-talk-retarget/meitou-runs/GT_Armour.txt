@@ -1,0 +1,6 @@
+squad member 0.0 Max at 26 from the NPC
+squad member 1.0 Hash Bull (animal) at 36 from the NPC
+Max (0.0) talks to Holy Armour Trader
+tick 305 speaker=Holy Armour Trader (15.0) player side=Hash Bull (1.0): Divine blessings, brother, how are you today? Looking for anything in particular?
+  choices: 0 Show me your wares | 1 No, nothing. Nevermind.
+tick 306: conversation closed

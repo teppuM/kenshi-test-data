@@ -1,0 +1,7 @@
+squad member 0.0 Pair Bull (animal) at 41 from the NPC
+squad member 1.0 Benjie at 47 from the NPC
+squad member 2.0 Claw at 54 from the NPC
+Benjie (1.0) talks to Holy Weapon Trader
+tick 350 speaker=Holy Weapon Trader (64.0) player side=Claw (2.0): TEST: the hashish search passed
+  choices: 0 TEST reply: who answers?
+tick 351: conversation closed

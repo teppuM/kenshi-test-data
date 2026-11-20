@@ -1,0 +1,6 @@
+squad member 0.0 Max at 76 from the NPC
+squad member 1.0 Hash Bull (animal) at 46 from the NPC
+Max (0.0) talks to Holy Construction Trader
+tick 430 speaker=Holy Construction Trader (63.0) player side=Hash Bull (1.0): TEST: the bull race search passed
+  choices: 0 TEST reply: who answers?
+tick 431: conversation closed

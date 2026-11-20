@@ -1,0 +1,7 @@
+squad member 0.0 Pair Bull (animal) at 32 from the NPC
+squad member 1.0 Benjie at 42 from the NPC
+squad member 2.0 Claw at 52 from the NPC
+Benjie (1.0) talks to Holy Hat Trader
+tick 305 speaker=Holy Hat Trader (174.0) player side=Claw (2.0): Love and devotion, brother, I hope that you are well. What can I do for you today? Looking to trade?
+  choices: 0 Let's get down to business | 1 No, nothing. Sorry to bother you.
+tick 306: conversation closed

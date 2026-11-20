@@ -1,0 +1,6 @@
+squad member 0.0 Max at 28 from the NPC
+squad member 1.0 Hash Bull (animal) at 38 from the NPC
+Max (0.0) talks to Holy Hat Trader
+tick 305 speaker=Holy Hat Trader (101.0) player side=Hash Bull (1.0): Blessings from the Lord Of Light, brother. How can I help you, are you looking to trade?
+  choices: 0 Let's trade | 1 No, nothing. Nevermind.
+tick 306: conversation closed
