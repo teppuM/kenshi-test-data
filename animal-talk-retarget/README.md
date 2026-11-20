@@ -9,7 +9,7 @@ The original game (1.0.68) lets a line's squad search move the conversation to w
 - A search in the opening line of a talk never moved the conversation or the trade off the character who started it. This held with the item on the pack animal or on a second person, with a race search, whether the line then passed or failed, and whether the animal stood closer to the trader than the talker or farther away.
 - A search in a line reached by clicking a reply did move it. The player side of the dialogue window switched to the pack animal (its portrait and name), and "trade" then opened the animal's inventory against the trader. This happened when the searching line passed and also when it failed on a later condition and another line played instead.
 
-In the original's code, the start of a player conversation puts the talker back as the conversation's target once the opening line has been said and its replies checked; a click on a reply does not. That matches both results.
+In the original's code, the opening line of a Talk is picked before the talk starts; the start then sets the talker as the conversation's target before saying that line, and puts the talker back again after the line's replies are checked. A click on a reply does neither. That matches both results.
 
 MeitouClient (master `b0dc8fcd6`, headless) never puts the talker back. It made whoever the search found the conversation's player side in every case, including at the opening line, where the original keeps the talker. In the one-reply-deep save it had already handed the talk to the bull on the first line, because another test root on the same trader ran its search while lines were being picked.
 
