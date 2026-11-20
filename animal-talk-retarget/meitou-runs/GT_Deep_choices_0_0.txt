@@ -1,0 +1,8 @@
+squad member 0.0 Max at 53 from the NPC
+squad member 1.0 Hash Bull (animal) at 63 from the NPC
+Max (0.0) talks to Holy Weapon Trader
+tick 325 speaker=Holy Weapon Trader (168.0) player side=Hash Bull (1.0): TEST deep: step one, pick a path
+  choices: 0 TEST: go on (the search will pass) | 1 TEST: go on (the search will fail) | 2 TEST deep: let's trade
+tick 326 speaker=Holy Weapon Trader (168.0) player side=Hash Bull (1.0): TEST deep: the hashish search passed
+  choices: 0 TEST deep: let's trade | 1 TEST deep: never mind
+tick 327: conversation closed

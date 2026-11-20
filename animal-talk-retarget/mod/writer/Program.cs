@@ -130,6 +130,43 @@ var pair = Squad("start- gate pair hashish", talker, pairBull);
 Ref(pair, "squad", carrier.StringId, 1);
 Start("Gate Test Pair Hashish", pair);
 
+// Round 3 (2026-11-20, again appended last): the search one reply deep. The Holy Weapon Trader opens with a plain line and offers two paths;
+// each path's NPC line searches the squad for Hashish, one passing, one failing on "target is female" and falling back to a plain line. Both
+// then offer a trade, to see whose inventory it opens and whose name the player panel shows after a search made after a click.
+var tradeAction = db.Records.Values.First(r => r.Type == FcsRecordType.DialogAction && r.GetInt("action name") == 1);
+FcsRecord Line(string text, int speaker, int bonus = 0)
+{
+    var l = New(FcsRecordType.DialogueLine, "DIALOGUE_LINE");
+    l.Strings["text0"] = text;
+    l.Ints["speaker"] = speaker; l.Ints["repetition limit"] = 0; l.Ints["score bonus"] = bonus; l.Ints["target is type"] = 0;
+    l.Floats["chance permanent"] = 100; l.Floats["chance temporary"] = 100;
+    return l;
+}
+var deepTrade = Line("TEST deep: let's trade", 1);
+Ref(deepTrade, "effects", tradeAction.StringId);
+var deepNothing = Line("TEST deep: never mind", 1);
+var deepPass = Line("TEST deep: the hashish search passed", 0, 10);
+Ref(deepPass, "target has item", Hashish);
+var deepFail = Line("(test deep line: never shown)", 0, 10);
+Ref(deepFail, "target has item", Hashish);
+Ref(deepFail, "conditions", female.StringId, 1);
+var deepFallback = Line("TEST deep: fallback line", 0);
+foreach (var l in new[] { deepPass, deepFallback }) { Ref(l, "lines", deepTrade.StringId); Ref(l, "lines", deepNothing.StringId); }
+var goPass = Line("TEST: go on (the search will pass)", 1);
+Ref(goPass, "lines", deepPass.StringId);
+var goFail = Line("TEST: go on (the search will fail)", 1);
+Ref(goFail, "lines", deepFail.StringId); Ref(goFail, "lines", deepFallback.StringId);
+var deepOpen = Line("TEST deep: step one, pick a path", 0);
+Ref(deepOpen, "is character", "2236-gamedata.base");
+Ref(deepOpen, "lines", goPass.StringId); Ref(deepOpen, "lines", goFail.StringId); Ref(deepOpen, "lines", deepTrade.StringId);
+var deepRoot = New(FcsRecordType.Dialogue, "gate test weapon trader deep search");
+deepRoot.Strings["tag"] = ""; deepRoot.Ints["repetition limit"] = 0; deepRoot.Ints["score bonus"] = 100; deepRoot.Ints["target is type"] = 0;
+deepRoot.Floats["chance permanent"] = 100; deepRoot.Floats["chance temporary"] = 100;
+deepRoot.Bools["for enemies"] = false; deepRoot.Bools["locked"] = false; deepRoot.Bools["monologue"] = false; deepRoot.Bools["one at a time"] = false;
+Ref(deepRoot, "lines", deepOpen.StringId);
+Ref(shopkeep, "dialogs", deepRoot.StringId, 1);
+Console.WriteLine($"trade action: {tradeAction.StringId} {tradeAction.Name}");
+
 file.NextId = next;
 Directory.CreateDirectory(args[0]);
 var path = Path.Combine(args[0], Mod);
