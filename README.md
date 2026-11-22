@@ -28,4 +28,5 @@ No other mods were active, unless a folder gives its own load order.
 - [gate-guard-bag-check](gate-guard-bag-check): with Universal Wasteland Expansion, a Shek gate guard says nothing more once his bag search ends.
 - [worn-bag-right-click](worn-bag-right-click): a right click on a worn backpack with no room for it in the main inventory leaves it worn; a spare backpack goes into the open worn one.
 
+- [bast-floating-debris](bast-floating-debris): MeitouClient draws floating scrap over a Bast house that the original never shows; compared, reproduced, cause not found.
 The test mods copy a few records from the game's own data, as any mod does. Kenshi and its data belong to Lo-Fi Games.
