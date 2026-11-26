@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NXUSTREAM2>
+    <NxuPhysicsCollection id="tower8_fneg2_shell_COL.xml" sdkVersion="284" nxuVersion="103">
+        <NxSceneDesc id="collision" hasMaxBounds="false" hasLimits="false" hasFilter="false">
+            <NxActorDesc id="name" name="tower8_fneg2_shell_COL00" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="70.000000 2.000000 25.000000">
+                    <NxShapeDesc name="tower8_fneg2_shell_COL00">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 68.000000 -75.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_fneg2_shell_COL01" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="2.000000 66.000000 25.000000">
+                    <NxShapeDesc name="tower8_fneg2_shell_COL01">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  68.000000 0.000000 -75.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_fneg2_shell_COL02" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="2.000000 66.000000 25.000000">
+                    <NxShapeDesc name="tower8_fneg2_shell_COL02">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  -68.000000 0.000000 -75.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_fneg2_shell_COL03" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="70.000000 2.000000 25.000000">
+                    <NxShapeDesc name="tower8_fneg2_shell_COL03">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 -68.000000 -75.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+        </NxSceneDesc>
+    </NxuPhysicsCollection>
+</NXUSTREAM2>

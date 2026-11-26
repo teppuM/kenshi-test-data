@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NXUSTREAM2>
+    <NxuPhysicsCollection id="tower8_f4_shell_COL.xml" sdkVersion="284" nxuVersion="103">
+        <NxSceneDesc id="collision" hasMaxBounds="false" hasLimits="false" hasFilter="false">
+            <NxActorDesc id="name" name="tower8_f4_shell_COL00" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="70.000000 2.000000 25.000000">
+                    <NxShapeDesc name="tower8_f4_shell_COL00">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 68.000000 225.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_f4_shell_COL01" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="2.000000 66.000000 25.000000">
+                    <NxShapeDesc name="tower8_f4_shell_COL01">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  68.000000 0.000000 225.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_f4_shell_COL02" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="2.000000 66.000000 9.000000">
+                    <NxShapeDesc name="tower8_f4_shell_COL02">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  -68.000000 0.000000 209.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_f4_shell_COL03" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="2.000000 66.000000 6.000000">
+                    <NxShapeDesc name="tower8_f4_shell_COL03">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  -68.000000 0.000000 244.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_f4_shell_COL04" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="2.000000 11.000000 10.000000">
+                    <NxShapeDesc name="tower8_f4_shell_COL04">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  -68.000000 -55.000000 228.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_f4_shell_COL05" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="2.000000 16.000000 10.000000">
+                    <NxShapeDesc name="tower8_f4_shell_COL05">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  -68.000000 0.000000 228.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_f4_shell_COL06" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="2.000000 11.000000 10.000000">
+                    <NxShapeDesc name="tower8_f4_shell_COL06">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  -68.000000 55.000000 228.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_f4_shell_COL07" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="70.000000 2.000000 25.000000">
+                    <NxShapeDesc name="tower8_f4_shell_COL07">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 -68.000000 225.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+        </NxSceneDesc>
+    </NxuPhysicsCollection>
+</NXUSTREAM2>

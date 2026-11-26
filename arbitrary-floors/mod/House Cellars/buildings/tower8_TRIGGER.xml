@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NXUSTREAM2>
+    <NxuPhysicsCollection id="tower8_TRIGGER.xml" sdkVersion="284" nxuVersion="103">
+        <NxSceneDesc id="collision" hasMaxBounds="false" hasLimits="false" hasFilter="false">
+            <NxActorDesc id="name" name="tower8_trigger_low" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="66.000000 65.000000 85.000000">
+                    <NxShapeDesc name="tower8_trigger_low">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 1.000000 -15.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_trigger_high" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="66.000000 65.000000 115.000000">
+                    <NxShapeDesc name="tower8_trigger_high">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 1.000000 185.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+        </NxSceneDesc>
+    </NxuPhysicsCollection>
+</NXUSTREAM2>

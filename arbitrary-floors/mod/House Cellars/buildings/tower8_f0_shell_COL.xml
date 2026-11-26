@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NXUSTREAM2>
+    <NxuPhysicsCollection id="tower8_f0_shell_COL.xml" sdkVersion="284" nxuVersion="103">
+        <NxSceneDesc id="collision" hasMaxBounds="false" hasLimits="false" hasFilter="false">
+            <NxActorDesc id="name" name="tower8_f0_shell_COL00" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="70.000000 2.000000 25.000000">
+                    <NxShapeDesc name="tower8_f0_shell_COL00">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 68.000000 25.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_f0_shell_COL01" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="2.000000 66.000000 25.000000">
+                    <NxShapeDesc name="tower8_f0_shell_COL01">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  68.000000 0.000000 25.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_f0_shell_COL02" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="2.000000 66.000000 9.000000">
+                    <NxShapeDesc name="tower8_f0_shell_COL02">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  -68.000000 0.000000 9.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_f0_shell_COL03" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="2.000000 66.000000 6.000000">
+                    <NxShapeDesc name="tower8_f0_shell_COL03">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  -68.000000 0.000000 44.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_f0_shell_COL04" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="2.000000 11.000000 10.000000">
+                    <NxShapeDesc name="tower8_f0_shell_COL04">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  -68.000000 -55.000000 28.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_f0_shell_COL05" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="2.000000 16.000000 10.000000">
+                    <NxShapeDesc name="tower8_f0_shell_COL05">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  -68.000000 0.000000 28.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_f0_shell_COL06" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="2.000000 11.000000 10.000000">
+                    <NxShapeDesc name="tower8_f0_shell_COL06">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  -68.000000 55.000000 28.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_f0_shell_COL07" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="29.000000 2.000000 25.000000">
+                    <NxShapeDesc name="tower8_f0_shell_COL07">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  -41.000000 -68.000000 25.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_f0_shell_COL08" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="29.000000 2.000000 25.000000">
+                    <NxShapeDesc name="tower8_f0_shell_COL08">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  41.000000 -68.000000 25.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_f0_shell_COL09" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="12.000000 2.000000 7.000000">
+                    <NxShapeDesc name="tower8_f0_shell_COL09">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 -68.000000 43.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_f0_shell_COL10" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="12.000000 2.000000 2.000000">
+                    <NxShapeDesc name="tower8_f0_shell_COL10">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 -68.000000 2.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_f0_shell_COL11" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="16.000000 7.000000 14.000000">
+                    <NxShapeDesc name="tower8_f0_shell_COL11">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 -77.000000 -10.000000</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            <NxActorDesc id="name" name="tower8_f0_shell_COLR00" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxConvexShapeDesc meshData="tower8_f0_shell_COLR00">
+                    <NxShapeDesc name="tower8_f0_shell_COLR00">
+                        <localPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 -112.731346 -12.718550</localPose>
+                    </NxShapeDesc>
+                </NxConvexShapeDesc>
+            </NxActorDesc>
+        </NxSceneDesc>
+        <NxConvexMeshDesc id="tower8_f0_shell_COLR00">
+            <cookedDataSize>892</cookedDataSize>
+            <cookedData>4E5853014356584D030000000000000049434501434C484C00000000494345014356484C05000000080000000C0000000C000000060000001800000018000000000080C1CCD9E54197BF8541000080413526FAC1D38034C100008041CCD9E54197BF8541000080C13526FA41D3803441000080C1CCD9E5C197BF85C100008041CCD9E5C197BF85C1000080C13526FAC1D38034C1000080413526FA41D38034410700000006010206020003040603060003000203020705040305030707020107010505010605060400000D6ED2CA056EEACA3D6E356EDACAE2CA8B9AC1338B9A413300000000040000000000000000000000000000807184D8BE9DFB673F000040C0000040C000004040040000000400000008000000FFFF7FBF0000000000000000FFFF7FC1FFFF7FC1FFFF7F4104000000080000001000000000000000A1FB673F6384D83E6F6C04C26F6C04C26F6C0442040000000C00000018000000000000007184D83E9DFB67BF000040C0000040C000004040040000001000000020000000FFFF7F3F34F7243300000080000080C1000080C10000804104000000140000002800000000000000A1FB67BF6384D8BE6F6C04C26F6C04C26F6C04420601020003040600030002070504030707020105050106040B00000005030002070A0201010006080907080B0603040B04050A0900000000000000000002000300060102010501060207030403070405040605074403CBEAD97ED17EF3EA5603C3EAE97E66037403FBEAE17E00000000000000000000000000000000020000000202020202020202020202021600000000020406080A0C0E101214160002010200010004040500050204010302030305010503044943450156414C45020000000800000024000000060000000304050603050604020306020506070001030607000204050607030506010304060700010203040501020305620000004F504301010000000300000001000000000000000000FF7FFF7F0080000000C0000000000000000000000000000000000001003A29287A3AA2C0053A48424D0100000000020000006500000005650C0000000B000000010304050708060200090A0B3526FA3600000000000000000000000023911342000080C13526FAC197BF85C1000080413526FA4197BF8541A3A2464601E68E4A000000AE00000080000000AE1EA2ED492B79D7C9000000802B79D7C9AFB3954A000000009FFBE735A3FB6735</cookedData>
+        </NxConvexMeshDesc>
+    </NxuPhysicsCollection>
+</NXUSTREAM2>
